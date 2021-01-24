@@ -4,28 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Meteor HTML CSS Template</title>
-<!--
-
-Template 2089 Meteor
-
-http://www.tooplate.com/view/2089-meteor
-
--->
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/hero-slider.css">
-        <link rel="stylesheet" href="css/tooplate-style.css">
-
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fontAwesome.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hero-slider.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/tooplate-style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-
 <body>
     <div class="header">
         <div class="container">
@@ -185,14 +174,12 @@ http://www.tooplate.com/view/2089-meteor
                 </div>
                 <div class="col-md-6">
                     <div class="right-image">
-                        <img src="img/what-we-do-right-image.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/what-we-do-right-image.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <div id="portfolio" class="page-section">
         <div class="content-wrapper">
             <div class="inner-container container">
@@ -219,80 +206,80 @@ http://www.tooplate.com/view/2089-meteor
                             <div class="col-md-3 col-sm-6 project-item mix workspace">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_01.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_01.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_01.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_01.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix workspace">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_02.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_02.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_02.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_02.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix technology">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_03.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_03.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_03.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_03.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix city">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_04.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_04.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_04.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_04.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix nature">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_05.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_05.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_05.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_05.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix technology">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_06.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_06.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_06.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_06.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix workspace">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_07.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_07.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_07.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_07.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix city">
                               <div class="thumb">
                                   <div class="image">
-                                    <img src="img/portfolio_08.jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_08.jpg">
                                   </div>
                                   <div class="hover-effect">
-                                    <a href="img/portfolio_big_08.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/img/portfolio_big_08.jpg" data-lightbox="image-1"><i class="fa fa-search"></i></a>
                                   </div>
                               </div>
                             </div>
@@ -318,7 +305,7 @@ http://www.tooplate.com/view/2089-meteor
                 <div class="col-md-6">
                     <div class="blog-item b1">
                         <div class="thumb">
-                            <img src="img/blog_01.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/blog_01.jpg" alt="">
                             <div class="text-content">
                                 <h4>Delecioius Food Served</h4>
                                 <span>Posted: <em>George</em>  /  Date: <em>11 Aug 2017</em>  /  Category: <em>Design</em></span>
@@ -329,7 +316,7 @@ http://www.tooplate.com/view/2089-meteor
                 <div class="col-md-6">
                     <div class="blog-item second-blog b2">
                         <div class="thumb">
-                            <img src="img/blog_02.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/blog_02.jpg" alt="">
                             <div class="text-content">
                                 <h4>Creative &amp; Clean Workspace</h4>
                                 <span>Posted: <em>Kerley</em>  /  Date: <em>24 Jul 2017</em>  /  Category: <em>Artwork</em></span>
@@ -340,7 +327,7 @@ http://www.tooplate.com/view/2089-meteor
                 <div class="col-md-6">
                     <div class="blog-item b3">
                         <div class="thumb">
-                            <img src="img/blog_03.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/blog_03.jpg" alt="">
                             <div class="text-content">
                                 <h4>Crashed Plane Captured</h4>
                                 <span>Posted: <em>Johnny</em>  /  Date: <em>16 Jul 2017</em>  /  Category: <em>Branding</em></span>
@@ -413,7 +400,7 @@ http://www.tooplate.com/view/2089-meteor
             <div class="row">
                 <div class="col-md-6">
                     <div class="map">
-                        <img src="img/map.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/map.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -452,9 +439,7 @@ http://www.tooplate.com/view/2089-meteor
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2017 Company Name 
-                        
-                        - Design: <a href="http://www.tooplate.com/view/2089-meteor" target="_parent">Meteor</a></p>
+                        <p>Design & Developed by Mazedur</p>                                        
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -481,16 +466,11 @@ http://www.tooplate.com/view/2089-meteor
             </div>
         </div>
     </footer>
-
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
-
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
     $(document).ready(function() {
