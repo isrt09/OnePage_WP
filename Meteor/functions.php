@@ -2,6 +2,10 @@
 	
 add_theme_support('title-tag');
 
+register_nav_menus(array(
+	'topmenu'=>__('Main Menu','metor')
+));
+
 function meteor_css_js(){
 	wp_enqueue_style('meteor-bootstrap',       get_template_directory_uri().'/css/bootstrap.min.css');
 	wp_enqueue_style('meteor-bootstrap-theme', get_template_directory_uri().'/css/bootstrap-theme.min.css');
