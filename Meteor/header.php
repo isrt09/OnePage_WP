@@ -21,7 +21,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand scroll-top">
+                    <a href="<?php echo site_url(); ?>" class="navbar-brand scroll-top">
                         <div class="logo"></div>
                     </a>
                 </div>
