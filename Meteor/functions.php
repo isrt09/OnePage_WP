@@ -7,6 +7,26 @@ register_nav_menus(array(
 	'topmenu'=>__('Main Menu','metor')
 ));
 
+
+
+function meteor_custom_posts(){
+	register_post_type('Slider',array(
+		'public' => true,
+		'labels' => array(
+			'name'    		=> __("Slider","meteor"),
+			'add_new' 		=> __("Add New","meteor"),
+			'add_new_item'  => __("Add New Slider","meteor"),
+			'all_items'     => __("All Sliders","meteor"),
+			'featured_image'=> __("Slider Image","meteor"),
+			'set_featured_image' => __("Set Slider Image","meteor"),				
+		),
+		'supports'=> array('title','editor','thumbnail'),
+		'menu_position'	=>10,
+		'menu_icon' => 'dashicons-images-alt2'	
+	));
+}
+add_action("init","meteor_custom_posts");
+
 function meteor_css_js(){
 	wp_enqueue_style('meteor-bootstrap',       get_template_directory_uri().'/css/bootstrap.min.css');
 	wp_enqueue_style('meteor-bootstrap-theme', get_template_directory_uri().'/css/bootstrap-theme.min.css');
