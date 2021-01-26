@@ -4,7 +4,7 @@
     <?php get_template_part('/templates/whattodo'); ?>
     <?php get_template_part('/templates/counter'); ?>
     <?php get_template_part('/templates/portfolio'); ?>    
-    <div id="blog" class="page-section">
+    <div id="blog" class="page-section">        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
