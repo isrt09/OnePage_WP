@@ -60,3 +60,7 @@ function add_theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 
+require_once('templates/content-header.php');
+require_once('templates/content-speaker.php');
+require_once('templates/content-tickets.php');
+require_once('templates/content-schedule.php');

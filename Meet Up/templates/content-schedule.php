@@ -1,3 +1,12 @@
+<?php 
+
+/*Template Name: Schedule*/ 
+
+?>
+<?php 
+    function get_schedule(){
+       ob_start();
+       ?>
 <!-- Start: Schedule -->
       <div class="container">
         <div class="row me-row schedule" id="schedule">
@@ -197,3 +206,6 @@
         </div>
       </div>
       <!-- End: Schedule -->
+  <?php return ob_get_clean(); }
+  add_shortcode('schedule','get_schedule');
+ ?>

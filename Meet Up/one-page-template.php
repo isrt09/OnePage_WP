@@ -1,9 +1,17 @@
-<?php get_header(); ?>
-    <body id="page-top" data-spy="scroll" data-target=".side-menu">
-      <?php get_template_part('/templates/content', 'nav'); ?>
-      <?php get_template_part('/templates/content', 'header'); ?>
-      <?php get_template_part('/templates/content', 'speaker'); ?>
-      <?php get_template_part('/templates/content', 'ticket'); ?>          
-      <?php get_template_part('/templates/content', 'schedule'); ?>                
+<?php 
+
+/*Template Name: One Page Template*/ 
+
+?>
+<?php get_header(); ?>        
+      <?php 
+      	  $query = new WP_Query(array('post_type'=>array('page')));
+      	  echo '<ul>';
+      	  while($query->have_posts()){
+      	  	$query->the_post();
+      	  	echo '<li>'.the_content().'</li>';
+      	  }
+      	  echo '</ul>';
+       ?>            
 <?php get_footer(); ?>
       

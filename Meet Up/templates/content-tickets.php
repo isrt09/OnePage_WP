@@ -1,3 +1,12 @@
+<?php 
+
+/*Template Name: Ticket*/ 
+
+?>
+<?php 
+    function get_tickets(){
+       ob_start();
+       ?>
  <!-- Start: Tickets -->
       <div class="container-fluid tickets" id="tickets">
         <div class="row me-row content-ct">
@@ -17,3 +26,6 @@
         </div>
       </div>
       <!-- End: Tickets -->
+  <?php return ob_get_clean(); }
+  add_shortcode('ticket','get_tickets');
+ ?>

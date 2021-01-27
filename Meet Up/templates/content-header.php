@@ -1,3 +1,13 @@
+<?php 
+
+/*Template Name: Header or Slider*/ 
+?>
+
+<?php 
+    function get_slider(){
+       ob_start();
+       ?>
+     <body id="page-top" data-spy="scroll" data-target=".side-menu"> 
 <div class="container-fluid">
         <!-- Start: Header -->
         <div class="row hero-header" id="home">
@@ -15,3 +25,40 @@
         </div>
         <!-- End: Header -->
       </div>
+       <nav class="side-menu">
+    <ul>
+      <li class="hidden active">
+        <a class="page-scroll" href="#page-top"></a>
+      </li>
+      <li>
+        <a href="#home" class="page-scroll">
+          <span class="menu-title">Home</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#speakers" class="page-scroll">
+          <span class="menu-title">Speakers</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#tickets" class="page-scroll">
+          <span class="menu-title">Buy Tickets</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#schedule" class="page-scroll">
+          <span class="menu-title">Schedule</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+    </ul>
+  </nav>  
+  <?php return ob_get_clean(); }
+  add_shortcode('slider','get_slider');
+ ?>
+
+
+

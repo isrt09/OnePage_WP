@@ -1,3 +1,12 @@
+<?php 
+
+/*Template Name: Speaker*/ 
+
+?>
+<?php 
+    function get_speaker(){
+       ob_start();
+       ?>
 <div class="container">
         <!-- Start: Desc -->
         <div class="row me-row content-ct">
@@ -86,3 +95,6 @@
         </div>
         <!-- End: Speakers -->
       </div>
+       <?php return ob_get_clean(); }
+  add_shortcode('speaker','get_speaker');
+ ?>
