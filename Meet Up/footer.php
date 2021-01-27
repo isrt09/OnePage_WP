@@ -60,12 +60,9 @@
       <!-- End: Footer -->
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
+     
       <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-      <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.min.js"></script>
-      <script src="<?php echo get_template_directory_uri(); ?>/js/scrolling-nav.js"></script>
-      <script src="<?php echo get_template_directory_uri(); ?>/js/validator.js"></script>
+     
       <!-- Google Analytics -->
       <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
